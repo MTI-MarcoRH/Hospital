@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "M.T.I. Marco A. Ramírez Hernández",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.8.6",
+    "@amcharts/amcharts5-fonts": "^5.0.1",
+    "express": "^4.19.1",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1",
+    "socket.io": "^4.7.5"
+  }
 }
