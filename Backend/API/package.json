@@ -1,0 +1,11 @@
+{
+  "name": "hospital_8a_2024",
+  "version": "1.0.0",
+  "description": "Proyecto Académico Nivel Ingeniería, que intercatuará con las BD's SQL y NoSQL para la gestión de información",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M.T.I. Marco A. Ramírez Hernández",
+  "license": "ISC"
+}
