@@ -1,5 +1,7 @@
 const { Sequelize } = require('sequelize');
-require('dotenv').config();
+const path = require('path');  // Importar el módulo path
+require('dotenv').config({ path: path.join(__dirname, '../../../.env') }); // Especificar la ruta del archivo .env
+
 
 const sequelize = new Sequelize(
   process.env.DB_NAME,
